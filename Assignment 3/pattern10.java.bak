@@ -1,0 +1,23 @@
+class pattern10
+{
+	public static void main(String args[])
+		{
+		char a[]={'A','B','C','D','E'};
+		int b=5;
+		
+		for(int i=5;i>=1;i--)
+			{
+				for(int j=i;j>=1;j--)
+					{
+						System.out.print(" ");
+					}
+				
+				for(int k=4;k<=b;k--)
+					{
+						System.out.print(a[k]+" ");
+						--b;
+					}
+						System.out.println();	
+			}
+		}
+}
