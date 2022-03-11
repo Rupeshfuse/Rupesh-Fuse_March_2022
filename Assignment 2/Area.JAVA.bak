@@ -1,0 +1,14 @@
+import java.util.*;
+class Area
+{
+public static void main(String args[])
+{ 
+final double pi=3.14;
+Scanner d1=new Scanner(System.in);
+System.out.println("Enter radius  "); 
+int r=d1.nextInt();
+System.out.println("radius is = "+r);
+double area=pi*(r*r);
+System.out.println("Area is = "+area);
+}
+}

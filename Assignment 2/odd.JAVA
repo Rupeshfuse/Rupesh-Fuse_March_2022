@@ -1,0 +1,17 @@
+import java.util.*;
+class odd
+{
+public static void main(String args[])
+{ 
+do
+{
+Scanner d1=new Scanner(System.in);
+System.out.println("Enter a number  "); 
+int r=d1.nextInt();
+if(r%2==0)
+{ System.out.println(" number is Even ");}
+else 
+{System.out.println(" number is odd ");}
+}while(true);
+}
+}

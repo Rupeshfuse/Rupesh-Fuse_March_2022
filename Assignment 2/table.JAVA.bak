@@ -1,0 +1,18 @@
+import java.util.*;
+class table
+{
+public static void main(String args[])
+{ 
+
+Scanner d1=new Scanner(System.in);
+System.out.println("Enter a number  "); 
+int r=d1.nextInt();
+int i=1;
+int a=0;
+while(i<=10)
+{a=r*i;
+     i++;
+System.out.println(+r+"*"+i+"="+a); 
+}
+}
+}
